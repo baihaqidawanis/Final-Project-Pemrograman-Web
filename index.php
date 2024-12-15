@@ -24,6 +24,8 @@ $result = mysqli_query($koneksi, $sql);
 <body class="bg-gray-100 w-full min-h-screen mx-auto text-gray-800 p-5 overflow-x-hidden relative ">
     <nav class="bg-white w-3/4 mx-auto border-2 border-black flex justify-between items-center px-6 py-4 rounded-md">
         <div class="text-xl font-bold">Hasil Pertandingan Bola</div>
+        <a href="login.php"
+            class="px-4 py-2 bg-green-600 border-2 border-black text-white font-semibold rounded">Login</a>
     </nav>
     <img src="./bg-dashboard.jpg" alt="" class="absolute top-0 left-0 object-cover -z-10">
     <img src="./ball.png" alt="" class="fixed -bottom-10 -left-24 w-[256px]">
